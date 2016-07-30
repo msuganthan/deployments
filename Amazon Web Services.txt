@@ -1,0 +1,128 @@
+Amazon Web Services:
+====================
+
+	AWS OpsWorks is a flexible application management solution with automation tools the enable you to model and control your applications and their supporting infrastructure. 
+	
+	You can manage the complete application lifecycle including 
+	
+		1. resource provisioning
+		2. configuration management
+		3. application deployment
+		4. software updates
+		5. monitoring
+		6. access control
+
+
+	How much control do I have on applications that are managed with AWS OpsWorks?
+	
+		You can define the application's architecture and the specification of each component including
+		
+		1. package installation 
+		2. software configuration
+		3. resource
+		
+	Will I have to start from scratch?
+	
+		Templates for common technologies like 
+			
+			Application servers 
+			Databases
+		are available as starting points or you can build your own to perform any task that can be scripted
+		
+	What types of architectures are supported by AWS OpsWorks?
+	
+		It supports wide range from simple web applications to complex custom applications and any software that has a scripted installation
+		
+	Does this mean I will have to learn yet another scripting languanges?
+	
+		No. AWS OpsWorks supports standard Ched recipes and Bash scripts. This enables you to leverage community-built configurations such as MongoDB and ElasticSearch.
+		
+	Can I maintain version configuration, like for our applicaiton source code?
+	
+		You can use and deploy from common version control systems like
+		
+			Git
+			Subversion as well as HTTP and private pr public Amazon S3 bundles
+			
+	Does it handle deployment and changes accross running environments?
+	
+		AWS OpsWorks provides dynamic configuration and orchestration that allows you to efficiently manage you applications over their lifetime including support for automatic instance scaling and auto healing.
+		
+		You can reproduce the software configuration on new instances and apply changes to all running instances, ensugin consistent configuration at any time.
+		
+	Who is using AWS OpsWorks?
+
+		System administrators and ops-minded developers who need a powerful end-to-end application management solution uses AWS OpsWorks.
+		
+		DevOps users, who want better management and automation tools to help them customize and control their environments, are also using AWS OpsWorks
+		
+	How does it work?
+	
+		AWS OpsWorks lets you model and visualize you application with layers.
+		
+		A layer is basically a blueprint that specifies how to configure a set a Amazon EC2 instances and other resources for a particular purpose.
+		
+		For example, you might define a web layer for you applicaiton that consists of Amazon EC2 instances, Amazon EBS volumes including RAID configuration and mount points and Elastic IP addresses.
+		
+		You can also define the software condfiguration for each layer including installation scripts and initialization tasks.
+		
+		When an instance is added to a layer AWS OpsWorks automatically applies the specified configuration.
+		
+	What types of software application are supported by AWS OpsWorks?  
+	
+		AWS OpsWorks supports any software that has a scripted installation. It can used to handle anything from simple single server applications to multi-tier web applicaitons.
+		
+	Does AWS OpsWorks support DevOps principles and continous integration?
+	
+		Yes, everything in your environment can be automated. You can specify not only how to deploy your code but use Chef recipes to configure the software on the server and AWS APIs to provision resources.
+		
+		This supports pipelines from you source repository to you build server through to integration tests and production
+		
+	Will AWS OpsWorks allow us to build on existing resources?
+	
+		AWS OpsWorks uses Chef recipes to deploy and configure software components on Amazon EC2 instances. You can bring your own recipes or leverage hundreds of community-build Cookbooks that can be used with AWS OpsWorks such as PostgreSQL, Nginx and Solr. 
+		
+		For example, you can create a application that consists of multiple python apps installed in Django connected to a CouchDB database.
+		
+	What technologies are supported by AWS OpsWorks? 
+	
+		It provides pre-defines layers for common technologies such as Ruby, PHP, Java, ..MySQL
+		
+		AWS OpsWorks promotes convention but is flexible enough to let you customize any aspect of your environment. 
+		
+		You can extend or modify pre-defined layers, or create your own from scratch.
+		
+		
+	So what does AWS OpsWorks enable me to automate? Do I get any other benefits?
+	
+		You can automate management actions so that they are performed automatically and reliably. 
+		
+		You benefit from automatic failover, package management, Amazon EBS volumes RAID setup, and automatic rule-based or time-based instance scaling.
+		
+		Common tasks are automatically handled for you and you can also extend and customize that automation.
+		
+	What if my configuration needs to be changed?
+	
+		OpsWorks supports continous configuration through lifecycle events that automatically udpate your instances configuration to adapt to environmental changes, such as auto scaling events.
+		
+		With AWS OpsWorks there is no need to log in to several machines
+		
+	What OS are supported by AWS OpsWorks?
+	
+		Amazon Linux and Ubuntu
+		
+	How much does it cost?
+	
+		There is no additional charge for AWS resources supported by AWS OpsWorks. You pay for the AWS resources you create to store and run your application.
+		
+		For example Amazon EC2 instances, Amazon ERBS volumes, Elastic IP addresses and so on.
+		
+		As usual, you only pay for what you use, as you use it.
+		
+		There are no minimum fees and no upfront commitments.
+		
+	What about on-premises server?
+	
+		You pay for on-premises servers supported by AWS OpsWorks by the hour there are no-minimum fees and no upfront commitments.
+		
+		
